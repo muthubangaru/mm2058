@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float sqft;
+    scanf("%f",&sqft);
+    float acres=sqft/43560;
+    printf("%.2f sq.ft is equal to %.2f acres",sqft,acres);
+
+    return 0;
+}
